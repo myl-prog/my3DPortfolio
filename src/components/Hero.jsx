@@ -16,12 +16,12 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Developpeur FullStack  <br className='sm:block hidden' />
-            interfaces and web applications
+            et passioné du Java et Javascript
+
           </p>
         </div>
-
       </div>
-
+      <ComputersCanvas/>
     </section>
   )
 }
