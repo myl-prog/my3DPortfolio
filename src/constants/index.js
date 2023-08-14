@@ -29,6 +29,11 @@ import {
     digitalHouse,
     capgemini,
     fiverr,
+    springboot,
+    python,
+    mysql,
+    jenkins,
+    azureDevops,
   } from "../assets";
   
   export const navLinks = [
@@ -94,20 +99,17 @@ import {
       icon: typescript,
     },
     {
-      name: "React JS",
+      name: "ReactJS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "MySql",
+      icon: mysql,
     },
     {
       name: "MongoDB",
@@ -118,16 +120,28 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "Spring boot",
+      icon: springboot,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "GIT",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Jenkins",
+      icon: jenkins,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Azure Devops",
+      icon: azureDevops,
     },
   ];
   
@@ -136,13 +150,14 @@ import {
       title: "Développeur Full Stack",
       company_name: "Digital House GROUP",
       icon: digitalHouse,
-      iconBg: "#383E56",
+      iconBg: "white",
       date: "Avril 2021 - Aout 2021",
       points: [
         "Développement et géstion d'une application de transfert de données entre deux Systèmes d'informations . (BIM et PLM)",
         "Insertion des API Rest et développement entier de l'application.",
         "Technologies: Back-end : Java (Spring boot) - MySQL. Front-end : JavaScript (Angular) ",
       ],
+      bigger:true,
     },
     {
       title: "Développeur Full Stack",
@@ -157,6 +172,7 @@ import {
         "Chef de projet de l'integration de nouveaux outils CI/CD dans un contexte Devops (SonarQube,Jenkins).",
         "Technologies: Back-end: JAVA(JEE, Spring), SQL, gestion API rest. Front-end: HTML/CSS et Javascript. DevOps : SonarQube, Jenkins, Gitlab CI/CD.",
       ],
+      bigger:false,
     },
     
   ];

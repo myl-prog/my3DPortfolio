@@ -32,7 +32,11 @@ import fiverr from "./fiverr.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import mysql from "./tech/mysql.png";
+import jenkins from "./tech/jenkins.png";
+import springboot from "./tech/spring-boot.png";
+import python from "./tech/python.png";
+import azureDevops from "./tech/Azure-devops.png"
 export {
   logo,
   backend,
@@ -68,4 +72,9 @@ export {
   digitalHouse,
   capgemini,
   fiverr,
+  mysql,
+  jenkins,
+  springboot,
+  python,
+  azureDevops,
 };

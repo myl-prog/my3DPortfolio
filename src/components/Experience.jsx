@@ -26,8 +26,9 @@ const FreelanceExperienceCard = ({  }) => {
         <div className='flex justify-center items-center w-full h-full'>
           <img
             src={fiverr}
-            className='w-[60%] h-[60%] object-contain'
+            className={`w-[80%] h-[80%] object-contain`}
           />
+          
         </div>
       }
       
@@ -38,7 +39,7 @@ const FreelanceExperienceCard = ({  }) => {
           className='text-secondary text-[16px] font-semibold'
           style={{ margin: 0 }}
         >
-          Fiverr
+          <a href="https://www.fiverr.com/yassierose?up_rollout=true " target="_blank" rel="noopener noreferrer" >Fiverr</a>
         </p>
       </div>
         <p className="margin">
@@ -51,7 +52,7 @@ const FreelanceExperienceCard = ({  }) => {
             
             className='text-white-100 text-[14px] pl-1 tracking-wider'
           >
-            Front-end: HTML/CSS, JavaScript, ReactJs, Angular, Bootstrap, Tailwindcss.
+            Front-end: HTML/CSS, JavaScript, Typescript, ReactJs, Angular, Bootstrap, Tailwindcss.
           </li>
           <li
             
@@ -80,7 +81,9 @@ const ExperienceCard = ({ experience }) => {
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className='w-[60%] h-[60%] object-contain'
+            className={`object-contain ${
+              experience.bigger ? "w-[95%] h-[95%]" : "w-[60%] h-[60%]"
+            } `}
           />
         </div>
       }
