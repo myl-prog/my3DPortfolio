@@ -23,16 +23,22 @@ import {
     jobit,
     tripguide,
     threejs,
+    java,
+    fullStack,
+    windchill,
+    digitalHouse,
+    capgemini,
+    fiverr,
   } from "../assets";
   
   export const navLinks = [
     {
       id: "about",
-      title: "About",
+      title: "À propos de moi",
     },
     {
       id: "work",
-      title: "Work",
+      title: "Expériences",
     },
     {
       id: "contact",
@@ -42,21 +48,32 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Développeur web",
       icon: web,
+      bigger:false,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Développeur java",
+      icon: java,
+      bigger:false,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Développeur Reactjs",
+      icon: reactjs,
+      bigger:false,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Développeur Full-Stack",
+      icon: fullStack,
+      bigger:false,
     },
+    
+    {
+      title: "Développeur PLM",
+      icon: windchill,
+      bigger:true,
+    },
+    
   ];
   
   const technologies = [
@@ -116,57 +133,32 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Développeur Full Stack",
+      company_name: "Digital House GROUP",
+      icon: digitalHouse,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Avril 2021 - Aout 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Développement et géstion d'une application de transfert de données entre deux Systèmes d'informations . (BIM et PLM)",
+        "Insertion des API Rest et développement entier de l'application.",
+        "Technologies: Back-end : Java (Spring boot) - MySQL. Front-end : JavaScript (Angular) ",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Développeur Full Stack",
+      company_name: "Capgemini",
+      icon: capgemini,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2021 - Fév 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Développement et maintenance de plusieurs entités d'une application PLM Windchill customisé consistant principalemant à: ",
+        "Traiter les bugs reportés par le client.",
+        "Ajouter de nouvelles fonctionnalités demandés par le client.",
+        "Chef de projet de l'integration de nouveaux outils CI/CD dans un contexte Devops (SonarQube,Jenkins).",
+        "Technologies: Back-end: JAVA(JEE, Spring), SQL, gestion API rest. Front-end: HTML/CSS et Javascript. DevOps : SonarQube, Jenkins, Gitlab CI/CD.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
   ];
   
   const testimonials = [
