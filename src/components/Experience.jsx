@@ -20,7 +20,7 @@ const FreelanceExperienceCard = ({  }) => {
         color: "#fff",
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
-      date="2018-2020"
+      date="2018-2021 - 2024-2025"
       iconStyle={{background : "#E6DEDD"}}
       icon={
         <div className='flex justify-center items-center w-full h-full'>
@@ -34,12 +34,12 @@ const FreelanceExperienceCard = ({  }) => {
       
     >
       <div>
-        <h3 className='text-white text-[24px] font-bold'>Développeur logiciel</h3>
+        <h3 className='text-white text-[24px] font-bold'>Ingénieur logiciel</h3>
         <p
           className='text-secondary text-[16px] font-semibold'
           style={{ margin: 0 }}
         >
-          <a href="https://www.fiverr.com/yassierose?up_rollout=true " target="_blank" rel="noopener noreferrer" >Fiverr</a>
+          <a href="https://www.fiverr.com/yassierose?up_rollout=true " target="_blank" rel="noopener noreferrer" >Fiverr - malt </a>
         </p>
       </div>
         <p className="margin">
@@ -121,7 +121,7 @@ const Experience = () => {
           Mon parcours
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Expériences.
+          Expériences
         </h2>
       </motion.div>
 

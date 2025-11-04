@@ -1,4 +1,6 @@
 import {
+    next,
+    php,
     mobile,
     backend,
     creator,
@@ -28,12 +30,22 @@ import {
     windchill,
     digitalHouse,
     capgemini,
+    khresterion,
     fiverr,
     springboot,
     python,
     mysql,
     jenkins,
     azureDevops,
+    edecision,
+    mern,
+    portfolio,
+    rayanehrt,
+    usa,
+    france,
+    jrmyprouff,
+    sqwrtz,
+    fiverrProfile,
   } from "../assets";
   
   export const navLinks = [
@@ -102,7 +114,10 @@ import {
       name: "ReactJS",
       icon: reactjs,
     },
-    
+    {
+      name: "Nextjs",
+      icon: next,
+    },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -132,6 +147,10 @@ import {
       icon: python,
     },
     {
+      name: "PHP",
+      icon: php,
+    },
+    {
       name: "GIT",
       icon: git,
     },
@@ -147,7 +166,7 @@ import {
   
   const experiences = [
     {
-      title: "Développeur Full Stack",
+      title: "Ingénieur Full Stack",
       company_name: "Digital House GROUP",
       icon: digitalHouse,
       iconBg: "white",
@@ -160,11 +179,11 @@ import {
       bigger:true,
     },
     {
-      title: "Développeur Full Stack",
+      title: "Ingénieur Full Stack",
       company_name: "Capgemini",
       icon: capgemini,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Fév 2022",
+      date: "Fév 2022 - Septembre 2023",
       points: [
         "Développement et maintenance de plusieurs entités d'une application PLM Windchill customisé consistant principalemant à: ",
         "Traiter les bugs reportés par le client.",
@@ -174,99 +193,113 @@ import {
       ],
       bigger:false,
     },
+    {
+      title: "Ingénieur Full Stack",
+      company_name: "Khresterion",
+      icon: khresterion,
+      iconBg: "white",
+      date: "Septembre 2023 - Decembre 2024",
+      points: [
+        "Développement et Maintenance d'une gamme d’applications utilisant de l’IA symbolique afin de répondre aux besoins spécifiques de nos clients.",
+        "Responsabilités Tech Lead : Conception de l’infrastructure d’une application, conception du design system, Pipeline CI/CD (JenkinsSonarQube)",
+        "Technologies: Back-end: JAVA(Spring boot), MongoDB. Front-end: Vuejs",
+      ],
+      bigger:false,
+    },
     
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Un travail très rapide, efficace, rien a dire ! Je recommande a 100%.",
+      name: "sqwrtz",
+      designation: "Product Manager",
+      company: "",
+      image: sqwrtz,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Le développeur a prendre sur fiverr !",
+      name: "Rayane hrt",
+      designation: "CEO",
+      company: "TrackmyBike",
+      image: rayanehrt,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Super travail de Yassierose. Hyper réactif et professionnel.",
+      name: "Jeremy",
+      designation: "Client particulier",
+      company: "",
+      image: jrmyprouff,
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Appli réseaux sociaux",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Une application réseaux sociaux inspiré par Twitter ou threads, robuste avec un Full Stack MERN en utilisant du Nextjs pour plus d'optimisation du seo, du chargement et du routage.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "MERN",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: mern,
+      source_code_link: "https://github.com/myl-prog/Thread-clone",
+    },
+    {
+      name: "E-decision - SPRING API",
+      description:
+        "Test2",
+      edecision:true,
+      tags: [
+        {
+          name: "SpringSecurity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "SpringBoot",
+          color: "green-text-gradient",
+        },
+        {
+          name: "API",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: edecision,
+      source_code_link: "https://github.com/myl-prog/E-decision",
+    },
+    {
+      name: "3D Portfolio",
+      description:
+        "C'est bien le site dans lequel vous êtes actuellement, il a étè conçu avec React, mais aussi Threejs pour donner vie a certaines composantes en 3D.",
+      tags: [
+        {
+          name: "Reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Threejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/myl-prog/my3DPortfolio",
     },
   ];
   

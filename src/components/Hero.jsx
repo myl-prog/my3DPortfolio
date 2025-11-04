@@ -15,15 +15,15 @@ const Hero = () => {
             Hello ! Je m'appelle <span className='text-[#915EFF]'>Yassine</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Developpeur FullStack  <br className='sm:block hidden' />
-            Passioné de Java et Javascript et prêt à donner vie à vos projets, Bienvenue sur mon portfolio !
+            Developpeur FullStack,
+            passioné de Java et Javascript et prêt à donner vie à vos projets, Bienvenue sur mon portfolio !
 
           </p>
         </div>
       </div>
       <ComputersCanvas/>
       {/* Starting motion figure with framer motion*/}
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center mt-3'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
